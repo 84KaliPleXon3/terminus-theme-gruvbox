@@ -1,12 +1,12 @@
-# Hype Theme
+# Gruvbox Theme
 
 #### For the Terminus terminal
 
-This is a simple theme that mimicks the Hyper terminal. You can use this plugin as a base to build a theme of your own!
-
-![](http://imgur.com/download/1cEi7ef)
+This theme is based on the ["Hype"](https://github.com/Eugeny/terminus-theme-hype) theme for Terminus.
 
 ---
+
+####From original "Hype" theme README:
 
 ## Hacking
 
