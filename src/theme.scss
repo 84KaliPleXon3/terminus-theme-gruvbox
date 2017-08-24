@@ -1,7 +1,7 @@
 $window-border: #313131;
-$body-bg: #010101;
-$body-bg2: #010101;
-$body-bg3: #111;
+$body-bg: #282828;
+$body-bg2: #161819;
+$body-bg3: #282828;
 
 
 $tab-border-radius: 3px;
@@ -9,25 +9,25 @@ $button-hover-bg: rgba(255, 255, 255, .05);
 $button-active-bg: rgba(255, 255, 255, .1);
 
 
-$white:  #fff !default;
-$black:  #000 !default;
-$red:    #d9534f !default;
-$orange: #f0ad4e !default;
-$yellow: #ffd500 !default;
-$green:  #5cb85c !default;
-$blue:   #0275d8 !default;
-$teal:   #5bc0de !default;
-$pink:   #ff5b77 !default;
-$purple: #613d7c !default;
+$white:  #e6d4a3 !default;
+$black:  #282828 !default;
+$red:    #f73028 !default;
+$orange: #cc881a !default;
+$yellow: #f7b125 !default;
+$green:  #7db669 !default;
+$blue:   #719586 !default;
+$teal:   #578e57 !default;
+$pink:   #c77089 !default;
+$purple: #a04b73 !default;
 
 
 $body-color: #aaa;
 $font-family-sans-serif: "Source Sans Pro";
 $font-size-base: 14rem / 16;
 
-$btn-secondary-color:            #ccc;
-$btn-secondary-bg:               #222;
-$btn-secondary-border:           #444;
+$btn-secondary-color:            $white;
+$btn-secondary-bg:               $black;
+$btn-secondary-border:           $blue;
 
 //$btn-warning-bg:                 rgba($orange, .5);
 
@@ -183,7 +183,7 @@ settings-tab > ngb-tabset {
     border-right: 1px solid $body-bg2;
 
     & > .nav {
-        background: $body-bg3;
+        background: $body-bg2;
 
         & > .nav-item > .nav-link {
             border-left: none;

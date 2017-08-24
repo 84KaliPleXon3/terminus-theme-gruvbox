@@ -2,15 +2,15 @@ import { NgModule, Injectable } from '@angular/core'
 import { Theme } from 'terminus-core'
 
 @Injectable()
-class HypeTheme extends Theme {
-    name = 'Hype'
+class GruvboxTheme extends Theme {
+    name = 'Gruvbox'
     css = require('./theme.scss')
-    terminalBackground = '#010101'
+    terminalBackground = '#282828'
 }
 
 @NgModule({
     providers: [
-        { provide: Theme, useClass: HypeTheme, multi: true },
+        { provide: Theme, useClass: GruvboxTheme, multi: true },
     ],
 })
-export default class HypeThemeModule { }
+export default class GruvboxThemeModule { }

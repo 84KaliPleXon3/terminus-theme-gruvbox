@@ -1,5 +1,5 @@
 {
-  "name": "terminus-theme-hype",
+  "name": "terminus-theme-gruvbox",
   "version": "0.0.7",
   "description": "Hyper inspired theme for Terminus",
   "keywords": ["terminus-plugin"],
@@ -36,5 +36,5 @@
     "typescript": "~2.1.0",
     "webpack": "2.3.3"
   },
-  "repository": "eugeny/terminus-theme-hype"
+  "repository": "porkloin/terminus-theme-gruvbox"
 }
