@@ -34,7 +34,7 @@
     "terminus-core": "0.0.2",
     "to-string-loader": "^1.1.5",
     "typescript": "~2.1.0",
-    "webpack": "2.3.3"
+    "webpack": "5.94.0"
   },
   "repository": "porkloin/terminus-theme-gruvbox"
 }
